@@ -1,4 +1,4 @@
-resource "aws_db_instance" "cancel_test" {
+resource "aws_db_instance" "test" {
   allocated_storage    = 10
   storage_type         = "gp2"
   engine               = "mysql"
