@@ -15,7 +15,7 @@ resource "aws_instance" "example" {
     },
     {
       device_name           = "/dev/sdc"
-      encrypted             = false
+      encrypted             = true
     }
   ]
 }
