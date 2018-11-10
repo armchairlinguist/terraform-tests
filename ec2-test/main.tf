@@ -11,7 +11,6 @@ resource "aws_instance" "example" {
   ebs_block_device = [
     {
       device_name           = "/dev/sdb"
-      encrypted             = true
     },
     {
       device_name           = "/dev/sdc"
