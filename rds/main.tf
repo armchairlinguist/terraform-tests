@@ -1,5 +1,5 @@
 resource "aws_db_instance" "cancel_test" {
-  allocated_storage    = 10
+  allocated_storage    = 12
   storage_type         = "gp2"
   engine               = "mysql"
   engine_version       = "5.7"
